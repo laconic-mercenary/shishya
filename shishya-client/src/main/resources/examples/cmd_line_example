@@ -1,0 +1,1 @@
+java -jar target\shishya-client-1.0-RC1-jar-with-dependencies.jar 127.0.0.1 D:\Bin\Android\SDK\adt-bundle-windows-x86_64-20140321\sdk\extras\android\support\NOTICE.txt 127.0.0.1 9111

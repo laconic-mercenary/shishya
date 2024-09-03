@@ -1,0 +1,30 @@
+<assembly>
+	<id>distribution</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+
+	<fileSets>
+		<fileSet>
+			<directory>/src/main/resources/</directory>
+			<outputDirectory>/</outputDirectory>
+			<includes>
+				<include>*.bat</include>
+				<include>*.xml</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>/target</directory>
+			<outputDirectory>/lib</outputDirectory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>/lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+</assembly>

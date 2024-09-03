@@ -1,0 +1,1 @@
+java -Dlog4j.configuration=file:log4j.xml -jar lib\shishya-distributed-1.0-RC1.jar -SERVER -bindAddress "127.0.0.1" -bindPorts "55551,55552" -bufferSize 45000

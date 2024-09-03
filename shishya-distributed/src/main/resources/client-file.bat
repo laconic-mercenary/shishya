@@ -1,0 +1,2 @@
+set /p FILE_PATH="Enter filepath: "
+java -Dlog4j.configuration=file:.\log4j.xml -jar lib\shishya-distributed-1.0-RC1.jar -CLIENT -targetPort "55551,55552" -targetAddress "127.0.0.1" -bindAddress "127.0.0.1" -bindPorts "56661,56662" -bufferSize 45000 -file %FILE_PATH%
